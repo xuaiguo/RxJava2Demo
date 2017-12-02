@@ -10,6 +10,7 @@ import java.io.InterruptedIOException;
 import io.reactivex.functions.Consumer;
 import io.reactivex.plugins.RxJavaPlugins;
 import zlc.season.rxjava2demo.demo.ChapterNine;
+import zlc.season.rxjava2demo.demo.ChapterOne;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "TAG";
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ChapterNine.demo4();
+                ChapterOne.demo2();
             }
         });
 

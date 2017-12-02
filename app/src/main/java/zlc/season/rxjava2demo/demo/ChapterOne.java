@@ -54,7 +54,6 @@ public class ChapterOne {
         //建立连接
         observable.subscribe(observer);
     }
-
     public static void demo2() {
         Observable.create(new ObservableOnSubscribe<Integer>() {
             @Override
